@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins",sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(https://www.jdesigngroup.com/wp-content/uploads/2013/12/bigstock-Luxury-Restaurant-In-European-52461799-1.jpg);
+    background-size: cover;
+    background-position: center;
+    font-size: xx-large;
+    color: white;
+}
+.bill-cont .amt {
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+.bill-cont .item {
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 80%;
+}
+.bill-cont .quantity {
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 80%;
+}
+.bill-cont .price {
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 80%;
+}
